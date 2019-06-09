@@ -53,7 +53,6 @@ void init(){
     printf("|                           THE ULTLIMATE DICE ROLLER                          |\n");
     printf("|                                                                              |\n");
     printf(" ==============================================================================\n");
-    printf(" a mykothai production \n\n");
 }
 
 void printPlayers(struct ThePlayers* players){
