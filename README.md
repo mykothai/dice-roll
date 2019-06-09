@@ -10,11 +10,10 @@ Program asks to toggle certain options at start.
 1. Add **player names** - to keep track of player turns
 2. View **histogram** during rolls
 3. **Number** of 6 sided dice to be rolled each time
-<br><br>
 
 ## To Run: <br>
 #### Option 1: <br>
-* Double click DiceRoll64.exe
+* Run **DiceRoll64.exe**
  
 #### Option 2: <br>
 * $ make<br>
