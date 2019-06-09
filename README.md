@@ -1,11 +1,9 @@
 # dice-roll
 Rolls N dice. 
 
-## Files: <br>
-* dice_roll.c<br>
-* dice_roll_color.c<br>
-* Makefile<br>
-* DiceRoll64.exe
+## Notes: <br>
+* **dice_roll_color.c** adds color to _bash_ output and is just for funsies. **DiceRoll64.exe** has no color.
+
 <br><br>
 
 ## Options: <br>
