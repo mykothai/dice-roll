@@ -4,8 +4,6 @@ Rolls N dice.
 ## Notes: <br>
 * **dice_roll_color.c** adds color to _bash_ output and is just for funsies. **DiceRoll64.exe** has no color.
 
-<br><br>
-
 ## Options: <br>
 Program asks to toggle certain options at start.
 
@@ -25,6 +23,6 @@ Program asks to toggle certain options at start.
 <b>To Run version with terminal colors</b> (tested on Windows Subsystem for Linux Ubuntu 18.04 ONLY)<br>
 * $ make<br>
 * $ ./runcolor<br>
-<br><br>
+<br>
 
 Last Modified: 2019-06-09
