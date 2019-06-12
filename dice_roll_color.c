@@ -71,7 +71,7 @@ void init(){
     printf("\n");
     printf(" %s==============================================================================\n", green);
     printf("|                                                                              |\n");
-    printf("|                           THE ULTLIMATE DICE ROLLER                          |\n");
+    printf("|                           THE ULTIMATE DICE ROLLER                           |\n");
     printf("|                                                                              |\n");
     printf(" ==============================================================================%s\n", none);
 }

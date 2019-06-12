@@ -50,7 +50,7 @@ void init(){
     printf("\n");
     printf(" ==============================================================================\n");
     printf("|                                                                              |\n");
-    printf("|                           THE ULTLIMATE DICE ROLLER                          |\n");
+    printf("|                           THE ULTIMATE DICE ROLLER                           |\n");
     printf("|                                                                              |\n");
     printf(" ==============================================================================\n");
 }
