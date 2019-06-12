@@ -16,12 +16,17 @@ Program asks to toggle certain options at start.
 * Run **DiceRoll64.exe**
  
 #### Option 2: <br>
-* $ make<br>
-* $ ./run<br>
+```
+$ make
+$ ./run
+```
+<br>
 
 <b>To Run version with terminal colors</b> (tested on Windows Subsystem for Linux Ubuntu 18.04 ONLY)<br>
-* $ make<br>
-* $ ./runcolor<br>
+```
+$ make
+$ ./runcolor
+```
 <br>
 
 Last Modified: 2019-06-09
