@@ -172,15 +172,7 @@ void numberOfDiceToRoll(struct Histogram* hist, struct ThePlayers* players, stru
 
             if (players->numberPlayers != 0) {
                 whoseTurn = playerCounter % players->numberPlayers;
-                printf(" ROUND %d                      Player: %s\n", (int)floor(playerCounter/players->numberPlayers)+1, strupr(players->playerNames[whoseTurn]));
-/*
-                // For testing purposes only
-                // printf("playercounter: %d\n", playerCounter);
-                // printf("mod calc: %d\n", whoseTurn);
-                // printf("player array size: %d\n", players->numberPlayers);
-                // players->playerNames[whoseTurn] = toupper(players->playerNames[whoseTurn]);
-                // printf("          %s's turn:\n", strupr(players->playerNames[whoseTurn]));
-*/                
+                printf(" ROUND %d                      Player: %s\n", (int)floor(playerCounter/players->numberPlayers)+1, strupr(players->playerNames[whoseTurn]));                
                 printf(" =============================================\n");
                 playerCounter++;
             }
@@ -242,30 +234,6 @@ void printHistogram(struct Histogram* hist) {
         printf("     Number of [%2d]'s rolled = %3d  (%4.1f%%) \n", i+1, hist->histogramArray[i], percentage);
     }
 
-/*  
-    // This section was used to print hashes (#) at the end of program to display an
-    // end game histrogram. Decided to show number of each roll result instead.
-
-    for (i = 0; i < hist->arraySize; i++) {
-        total += hist->histogramArray[i];
-    }
-    
-    for(int j = 1; j < hist->arraySize; j++){
-        printf("             Number of [%d]: \t", j+1);
-
-        for (int k = 0; k < hist->histogramArray[j]; k++){
-            printf("#");
-        }
-        printf("\n");
-
-        // Prints histogram based on ratio instead of one hash for each roll result
-        // for (int k = 0; k < (longestResult*hist->histogramArray[j])/total; k++){
-        //     printf("#");
-        // }
-        // printf("\n");
-    }
-*/
-
     printf("\n         Total rolls this game: %d\n", total);
     printf("\n =============================================\n");
 }
@@ -319,4 +287,3 @@ int main() {
     }
     return 0;
 }
-
